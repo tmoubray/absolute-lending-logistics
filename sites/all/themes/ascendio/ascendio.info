@@ -1,0 +1,165 @@
+; $Id: ascendio.info, v 1.0
+; $Developer: drupalelephant
+; $Coder: 
+; $DeupalVer: 7.53
+
+; Theme Info -----------------------------------------------------------------
+; required information about the theme
+
+name = ascendio
+description = This template is made by <a href="//drupalelephant.com">drupalelephant.com</a>
+screenshot = screenshot.png
+core = 7.x
+engine = phptemplate
+
+; Stylesheets ----------------------------------------------------------------
+; We use [screen] instead of [all] to avoid browser styles affecting
+; other media types.
+
+stylesheets[screen][]	= css/boilerplate.css
+stylesheets[screen][]	= css/style.css
+stylesheets[screen][]	= css/maintenance-page.css
+stylesheets[screen][]	= css/skeleton.css
+stylesheets[screen][]	= css/custom.css
+
+; Scripts ---------------------------------------------------------------------
+scripts[]				= js/ascendio.core.js
+scripts[]				= js/jquery.loader.js
+scripts[]				= js/jquery.debouncedresize.js
+scripts[]				= js/jquery.easing.js
+scripts[]				= js/jquery.ui.totop.js
+scripts[]				= js/jquery.cookie.js
+scripts[]				= js/tm-stick-up.js
+scripts[]				= js/tformer.js
+scripts[]				= js/device.min.js
+scripts[]				= js/migrate.js
+scripts[]				= js/tm-parallax.js
+
+; Regions --------------------------------------------------------------------
+; these content regions are available for block placement
+; some are special hidden regions: page_top, page_bottom, and help
+
+; these are the stock regions
+regions[header_top]		= Header Top
+regions[menu]			= Menu
+regions[header]			= Header
+regions[header_two]		= Header Two
+regions[header_bottom]	= Header Bottom
+regions[help]			= Help
+
+regions[content_top]	= Content Top
+regions[content]		= Content
+regions[content_bottom] = Content Bottom
+
+regions[sidebar_first]	= Sidebar Left
+regions[sidebar_second]	= Sidebar Right
+
+regions[section_one] 	= Section One
+regions[section_two]	= Section Two
+
+regions[footer_top]		= Footer Top
+regions[footer]			= Footer
+
+regions[page_top]		= Page Top
+regions[page_bottom]	= Page Bottom
+
+regions[highlighted]	= Highlighted
+
+
+; Options --------------------------------------------------------------------
+; these are the checkboxes that are available on the theme settings page.
+
+; General settings
+settings[toggle_logo]								= 1
+settings[toggle_name]								= 0
+settings[toggle_slogan]								= 0
+settings[toggle_node_user_picture]					= 0
+settings[toggle_comment_user_picture]				= 1
+settings[toggle_comment_user_verification]			= 1
+settings[toggle_favicon]							= 1
+settings[toggle_main_menu]							= 1
+settings[toggle_secondary_menu]						= 1
+
+settings[default_favicon]							= 1
+
+settings[default_logo]								= 1
+
+settings[ascendio_sticky_menu]						= 0
+
+; Breadcrumb settings
+settings[ascendio_breadcrumb_show]					= 1
+settings[ascendio_breadcrumb_hideonlyfront]			= 1
+settings[ascendio_breadcrumb_showtitle]				= 1
+settings[ascendio_breadcrumb_separator]				= " | "
+
+; Regions settings
+settings[ascendio_header_top_invert]					= 1
+
+settings[ascendio_header_bg_type]					= 'image'
+settings[ascendio_header_bg_img][fid]				= 1
+settings[ascendio_header_bg_parallax]				= 1
+settings[ascendio_header_bg_video]					= "http://youtu.be/2kodXWejuy0"
+settings[ascendio_header_bg_video_start]			= 0
+settings[ascendio_header_fullwidth]				= 0
+settings[ascendio_header_invert]					= 0
+
+settings[ascendio_header_two_bg_type]					= 'image'
+settings[ascendio_header_two_bg_img][fid]				= 36
+settings[ascendio_header_two_bg_parallax]				= 1
+settings[ascendio_header_two_bg_video]					= "http://youtu.be/2kodXWejuy0"
+settings[ascendio_header_two_bg_video_start]			= 0
+settings[ascendio_header_two_fullwidth]					= 0
+settings[ascendio_header_two_invert]					= 1
+
+settings[ascendio_header_bottom_bg_type]				= 'none'
+settings[ascendio_header_bottom_bg_img][fid]			= 2
+settings[ascendio_header_bottom_bg_parallax]			= 0
+settings[ascendio_header_bottom_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[ascendio_header_bottom_bg_video_start]		= 0
+settings[ascendio_header_bottom_fullwidth]				= 0
+settings[ascendio_header_bottom_invert]				= 0
+
+settings[ascendio_content_top_bg_type]				= 'none'
+settings[ascendio_content_top_bg_img][fid]			= 2
+settings[ascendio_content_top_bg_parallax]			= 0
+settings[ascendio_content_top_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[ascendio_content_top_bg_video_start]		= 0
+settings[ascendio_content_top_fullwidth]				= 0
+settings[ascendio_content_top_invert]				= 0
+
+settings[ascendio_content_bottom_bg_type]				= 'none'
+settings[ascendio_content_bottom_bg_img][fid]			= 2
+settings[ascendio_content_bottom_bg_parallax]			= 0
+settings[ascendio_content_bottom_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[ascendio_content_bottom_bg_video_start]		= 0
+settings[ascendio_content_bottom_fullwidth]				= 0
+settings[ascendio_content_bottom_invert]				= 0
+
+settings[ascendio_section_one_bg_type]				= 'none'
+settings[ascendio_section_one_bg_img][fid]			= 2
+settings[ascendio_section_one_bg_parallax]			= 0
+settings[ascendio_section_one_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[ascendio_section_one_bg_video_start]		= 0
+settings[ascendio_section_one_fullwidth]				= 0
+settings[ascendio_section_one_invert]				= 0
+
+settings[ascendio_section_two_bg_type]				= 'none'
+settings[ascendio_section_two_bg_img][fid]			= 2
+settings[ascendio_section_two_bg_parallax]			= 0
+settings[ascendio_section_two_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[ascendio_section_two_bg_video_start]		= 0
+settings[ascendio_section_two_fullwidth]				= 0
+settings[ascendio_section_two_invert]				= 0
+
+settings[ascendio_footer_top_bg_type]				= 'image'
+settings[ascendio_footer_top_bg_img][fid]			= 36
+settings[ascendio_footer_top_bg_parallax]			= 1
+settings[ascendio_footer_top_bg_video]				= "http://youtu.be/2kodXWejuy0"
+settings[ascendio_footer_top_bg_video_start]		= 0
+settings[ascendio_footer_top_invert]				= 1
+
+; Blog settings
+settings[ascendio_blog_title]						= ""
+
+; Custom CSS
+settings[ascendio_custom_css]						= ""

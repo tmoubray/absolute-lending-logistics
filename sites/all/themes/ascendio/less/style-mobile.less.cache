@@ -1,0 +1,84 @@
+a:4:{s:4:"root";s:48:"sites/all/themes/ascendio/less/style-mobile.less";s:8:"compiled";s:2265:"@media (max-width: 1250px) {
+	body { min-width:320px; }
+}
+@media (max-width: 995px) {
+	.stickup {
+		box-shadow:none !important;
+		position:relative !important;
+	}
+	.pseudoStickyBlock {
+		display:none !important;
+		height:0 !important;
+	}
+	#backtotop { display:none !important; }
+	.top-indent { padding:0; }
+	.view-testimonials blockquote { padding:0 10%; }
+	.width-indent {
+		padding-left:15%;
+		padding-right:15%;
+	}
+	.view-projects .view-header { padding:0 5%; }
+	.panels-flexible-column:not(:last-child) { margin-bottom:25px; }
+	h3, .h3 { font-size:20px; }
+	.parallax-bg-inner { top:0 !important; }
+}
+@media (max-width: 767px) {
+	.header_wrapper { padding:60px 0 65px; }
+	.region-menu > *:first-child { margin-right:0; }
+	.header-section_inner { flex-direction:column; }
+	.region-menu {
+		display:block;
+		width:100%;
+		text-align:center;
+	}
+	.dd-search#block-search-form .block-content form >div { padding:1px; }
+	#superfish-1-select { width:100%; }
+	.view-projects .view-content .views-row { flex:0 1 100%; }
+	.comment-wrapper { overflow:visible; }
+	.user-picture { margin-bottom:12px; }
+	.filter-help {
+		float:none;
+		margin-bottom:15px;
+		padding-top:0;
+	}
+	.mobile-two-column .views-row {
+		padding-top:0 !important;
+		float:left !important;
+		width:46% !important;
+		margin-bottom:30px !important;
+		margin-right:4% !important;
+	}
+	.mobile-two-column .views-row.even { margin-right:0 !important; }
+	.mobile-two-column .views-row.odd { clear:left; }
+	#comments .indented { margin-left:0; }
+	.dd-search#block-search-form .search-button { display:none; }
+	.dd-search#block-search-form .block-content {
+		position:relative;
+		width:100%;
+		top:0;
+		left:0;
+	}
+	.dd-search#block-search-form .block-content form {
+		visibility:visible;
+		opacity:1;
+		padding:0;
+	}
+	img { width:auto; }
+}
+@media (max-width: 479px) {
+	#comments .comment .comment-wrapper { overflow:visible; }
+	.page-tracker #main-wrapper .content { overflow-x:scroll; }
+	.page-tracker #main-wrapper .content table.sticky-header { display:none !important; }
+	.page-forum #forum { overflow-x:scroll; }
+	.page-forum #forum td.forum .icon {
+		float:none;
+		margin:0 0 5px;
+	}
+	.node-submitted ul.submitted-list li {
+		border-bottom:1px solid #d8d8d8;
+		float:none;
+		margin:0;
+		padding:3px 0;
+	}
+}
+";s:5:"files";a:2:{s:100:"/srv/bindings/cf5b9dd674f24dab85432eacdc75f863/code/sites/all/themes/ascendio/less/style-mobile.less";i:1527303408;s:94:"/srv/bindings/cf5b9dd674f24dab85432eacdc75f863/code/sites/all/themes/ascendio/less/mixins.less";i:1527303408;}s:7:"updated";i:1527303916;}
